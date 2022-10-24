@@ -33,10 +33,12 @@ https://www.youtube.com/watch?v=WMC6wHSlxOA
 - Spawns objects on every step you take.
 - Synced to other clients using state bags.
 - Needs to be toggled using a command. (restricted to players with permissions)
-- Configurable values like objects to spawn and light settings in client/server.lua.
+- Configurable values like objects to spawn and light settings in client and server.lua.
 
 
 ## Performance
 
-- Abysmal. Let's not talk about it.
-- If you have ideas, let me know.
+- Abysmal. Let’s not talk about it.
+- Idle 0.00ms but you can get up to 0.20ms per player.
+- If you have ideas on how to further improve this, let me know.
+- This was mostly thought of as a nice “gimmick” and maybe something for video recording :)
